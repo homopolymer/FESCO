@@ -64,7 +64,7 @@ int fesco_inverted_index_cossim(int argc, char* argv[])
         notify(vm);
 
         if (vm.count("help") || argc==1){
-            cout << "Usage: fesco cossim [options] -i index -o sketch" << endl;
+            cout << "Usage: fesco cossim [options] -i sketch -o similarity" << endl;
             cout << cmd_opts << endl;
             return 0;
         }
